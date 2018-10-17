@@ -1,7 +1,27 @@
 html {
   box-sizing: border-box;
+  background-color: #eee9de;
+  line-height: 1.5;
+  list-style-type: none;
+  max-width: 20em;
 }
 
 *, *::before *::after {
   box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  margin: .3em;
+  padding: .5em .75em;
+  background-color: #eee9de;
+  border: 3px solid #333;
+}
+
+a:hover {
+  background-color: #666;
 }
