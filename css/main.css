@@ -11,44 +11,57 @@ html {
 }
 
 body {
-  text-align: left;
+  display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
 
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
 img {
-  width: 100%;
   display: block;
-}
-
-.image {
-  display: inline-block;
-  width: 30em;
-}
-
-.header {
-  display: inline-block;
+  width: 100%;
   max-width: 25em;
 }
 
-header {
-  text-align: center;
+.image {
+  float: left;
+}
+
+.header {
+  float: left;
+  display: inline-block;
+  padding: .5em 0 2em;
+  padding-left: 2em;
+  max-width: 25em;
+}
+
+.main {
+  text-align: left;
 }
 
 .btn {
   display: inline-block;
-  margin: 1.5em;
+  margin: 1.5em 0;
   padding: .5em;
   border-radius: 5px;
   border: 2px solid #333;
   text-decoration: none;
+  text-align: left;
   color: #666;
 }
 
-footer {
-  max-width: 25em;
+.btn:hover {
+  background-color: #333;
 }
 
-.btn a:hover {
-  background-color: #333;
+.btn:hover a {
+  color: #fff;
 }
