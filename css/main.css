@@ -3,6 +3,7 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   line-height: 1.5;
+  text-align: center;
   margin: 1.5rem;
 }
 
@@ -12,11 +13,15 @@ html {
 
 body {
   display: inline-block;
-  vertical-align: middle;
   margin: 0;
 }
 
+div {
+  vertical-align: middle;
+}
+
 section {
+  text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -31,12 +36,12 @@ img {
   max-width: 25em;
 }
 
-.image {
-  float: left;
+p {
+  text-align: left;
 }
 
 .header {
-  float: left;
+  text-align: left;
   display: inline-block;
   padding: .5em 0 2em;
   padding-left: 2em;
@@ -49,12 +54,12 @@ img {
 
 .btn {
   display: inline-block;
-  margin: 1.5em 0;
+  margin: 1em 0;
   padding: .5em;
   border-radius: 5px;
   border: 2px solid #333;
   text-decoration: none;
-  text-align: left;
+  text-align: center;
   color: #666;
 }
 
